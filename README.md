@@ -2,16 +2,6 @@
 
 Dieses Dokument dient als Leitfaden, um Ihnen den Einstieg und die Navigation in meinem Projekt zu erleichtern. Bitte folgen Sie den unten aufgeführten Anweisungen, um einen reibungslosen Ablauf zu gewährleisten.
 
-## Vorab
-Um meine Dateien am besten zu Downloaden und um zu gewährleisten, das  alle Dateien richtig eingefädelt sind, würde ich Ihnen empfehlen die Dateien auf der GitHub Seite herunter zu laden. Der Link dazu ist auch in diesem Abgabe Ordner.
-
-## GitHub Anleitung
-1. Sie gehen auf den Link (https://github.com/valentin829/W-F_Webseite)
-2. Nun sehen sie einen grünen Button, auf diesem steht "Code". Klicken Sie auf diesen Button.
-3. Jetzt ist ein DropDown-menü heruntergefahren
-4. Jetzt nur noch auf "Download ZIP" klicken
-5. Geschafft!
-
 ### Startseite
 - Um zur **Hauptseite** zu gelangen, besuchen Sie bitte die `home.php`. Von dort aus ist alles intuitiv und einfach zu navigieren.
 
