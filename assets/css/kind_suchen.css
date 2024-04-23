@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    min-height: 100vh; /* Mindesthöhe des Viewports */
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+
+/* Main */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    background-color: #fff
+}
+
+.search-box {
+    display: flex;
+    border: 2px solid #ccc; /* Stärkere Umrandung */
+    border-radius: 30px; /* Größere Rundung der Ecken */
+    overflow: hidden;
+    width: 370px;
+    height: 60px;
+}
+
+.search_query {
+    flex: 1;
+    padding: 20px; /* Größere Höhe der Suchleiste */
+    font-size: 20px; /* Größere Schriftgröße */
+    border: none;
+    border-radius: 30px 30px 30px 30px; /* Rundung nur auf der linken Seite */
+}
+
+.search-btn {
+    position: absolute;
+    background-color: #000000;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 35px 35px 35px 35px; /* Rundung nur auf der rechten Seite */
+    font-weight: bold;
+    width: 85px;
+    margin-left: 275px;
+    margin-top: 10px;
+    height: 40px;
+
+}
+.search-btn:hover {
+    background-color: #1a1a1a;
+}
+
+/* Footer */
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; /* Setzt den Footer nach unten */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}

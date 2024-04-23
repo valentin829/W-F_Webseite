@@ -1,0 +1,183 @@
+/* Allgemeines Styling für den Körper der Webseite */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling für den Kopf der Webseite */
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Styling für die Navigationsleiste im Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling für das Logo im Header */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Styling für die Navigationslinks im Header */
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+
+/* Styling für den Hauptinhalt der Seite */
+main {
+    margin: 20px;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+/* Styling für den Lückentext */
+.lückentext {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.lückentext p {
+    margin-bottom: 15px;
+}
+
+.lückentext input,
+.lückentext select,
+.lückentext textarea {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
+.besonderheiten {
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.besonderheiten label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.besonderheiten input[type="text"] {
+    width: 1000px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Styling für den Button */
+.submit-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.submit-button input[type="submit"] {
+    background-color: #004e9c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 500px;
+}
+
+.submit-button input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.weiterleiten {
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+/* Styling für die Fußzeile der Seite */
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+/* Styling für den Inhalt der Fußzeile */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling für die Links in der Fußzeile */
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}

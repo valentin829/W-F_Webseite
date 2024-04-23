@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/anwesenheitscheck.css">
+    <link rel="icon" href="../../assets/img/logo.jpg">
+    <title>W+F Münster | Anwesenheitscheck</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../../assets/img/logo.jpg" alt="Vereinslogo">
+                <h1>Wasser + Freizeit Münster</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../../home.php">Startseite</a></li>
+                <li><a href="../../pages/calendar/kalender.php">Termine</a></li>
+                <li><a href="../../pages/forms/weiterleitungsseite.php">Anmeldung</a></li>
+                <li><a href="../../pages/overview/unseretrainer.php">Unsere Trainer</a></li>
+                <li><a href="../../pages/map/karte.html">Unser Schwimmbad</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="attendance-form" method="post" action="anwesenheitscheck.php">
+            <div class="input-container">
+                <label for="child_name">Name des Kindes:</label>
+                <input type="text" id="child_name" name="child_name">
+            </div>
+            <div class="input-container">
+                <label for="date">Datum:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="input-container">
+                <label for="course">Schwimmkurs:</label>
+                <select id="course" name="course">
+                    <option class="kursoptionen" value="Wassergewöhnung A">Wassergewöhnung A</option>
+                    <option class="kursoptionen" value="Wassergewöhnung B">Wassergewöhnung B</option>
+                    <option class="kursoptionen" value="Seepferdchen A">Seepferdchen A</option>
+                    <option class="kursoptionen" value="Seepferdchen B">Seepferdchen B</option>
+                    <option class="kursoptionen" value="Silberkurs A">Silberkurs A</option>
+                    <option class="kursoptionen" value="Silberkurs B">Silberkurs B</option>
+                    <option class="kursoptionen" value="Goldkurs A">Goldkurs A</option>
+                    <option class="kursoptionen" value="Goldkurs B">Goldkurs B</option>
+                    <option class="kursoptionen" value="Technikkurs A">Technikkurs A</option>
+                    <option class="kursoptionen" value="Technikkurs B">Technikkurs B</option>
+                    <option class="kursoptionen" value="Leistungsschwimmkurs A">Leistungsschwimmkurs A</option>
+                    <option class="kursoptionen" value="Leistungsschwimmkurs B">Leistungsschwimmkurs B</option>
+                    <option class="kursoptionen" value="Erwachsenenkurs A">Erwachsenenkurs A</option>
+                    <option class="kursoptionen" value="Erwachsenenkurs B">Erwachsenenkurs B</option>
+                </select>
+            </div>
+            <div class="button-container">
+                <button type="submit" name="present" id="present-button">Anwesend</button>
+                <button type="submit" name="absent" id="absent-button">Abwesend</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; Valentin Horstmann</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/"><img src="../../assets/img/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://www.twitter.com/"><img src="../../assets/img/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="../../assets/img/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

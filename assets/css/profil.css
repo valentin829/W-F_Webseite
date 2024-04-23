@@ -1,0 +1,148 @@
+/*Stile des "Körpers" der Seite*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/*Kopf der Seite*/
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #fff;
+}
+
+/*Stile der Navigationsleiste*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+
+/*Der Main-Abschnitt der Seite*/
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Überschrift*/
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.headline {
+    margin-bottom: 160px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*Dort stehen die jeweiligen Profil-Daten*/
+.profile-item {
+    margin-left: 390px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 19px;
+}
+
+.profile-item span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.profile-item label {
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+    width: 120px;
+    margin-right: 10px;
+}
+
+/*Fußzeile*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Die Social-Media-Links, die in der Fußzeile stehen*/
+.social-links {
+    margin-left: 30px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}

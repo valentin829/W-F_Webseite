@@ -1,0 +1,214 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/*"Kopf" der Seite*/
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #fff;
+}
+
+/*Navigationsleiste*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #007bff;
+    outline: none;
+    border-radius: 0;
+    transition: border-bottom 0.3s;
+}
+
+input:focus {
+    border-bottom: 2px solid #0056b3;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.karteikarte {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto; /* Hinzugefügte Zeile für die zentrierte Ausrichtung */
+    margin-top: 20px;
+}
+
+.karteikarte:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.karteikarte p {
+    margin: 0;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.informationen {
+    font-weight: bold;
+}
+
+.karteikarte p:last-child {
+    border-bottom: none;
+}
+
+.karteikarte h2 {
+    /* background-color: #87CEEB; */
+    background-color: #003366;
+    color: #fff;
+    margin: 0;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.karteikarte .details {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.karteikarte .details p {
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.karteikarte .details .actions {
+    display: flex;
+    align-items: center;
+}
+
+.karteikarte .details .actions a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.karteikarte .details .actions a:hover {
+    text-decoration: underline;
+}
+
+.no_results {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+    color: red;
+}
+
+/*Fußzeile*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Die Social-Links, die im Footer stehen*/
+.social-links {
+    margin-left: 30px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}

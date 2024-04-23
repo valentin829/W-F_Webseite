@@ -1,0 +1,48 @@
+/*Hier ist der Header*/
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #fff;
+}
+
+/*Hier ist der Footer*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Hier sind die Links im Footer*/
+.social-links {
+    margin-left: 30px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}

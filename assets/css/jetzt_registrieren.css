@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 45px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 125px
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-top: 40px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Änderung von height zu min-height */
+}
+
+.content {
+    text-align: center;
+    max-width: 900px;
+    margin-bottom: 50px;
+}
+
+.headline {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #2d3e50;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    border-color: #1d1d1d;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.feature {
+    width: calc(33.33% - 20px); /* 33.33% Breite mit 20px Abstand */
+    margin: 0 10px; /* Horizontaler Abstand zwischen den Features */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.requirements {
+    text-align: left;
+    max-width: 900px;
+    margin-bottom: 10px;
+}
+
+.requirements h2 {
+    font-size: 2.5rem;
+    color: #2d3e50;
+    margin-bottom: 20px;
+}
+
+.requirements ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.requirements li {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+.requirements-paragraph{
+    text-align: center;
+}
+
+.register-button {
+    margin-top: 50px;
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+.footer{
+    background-color: #003366;
+    color: #afb2c4;
+}
+
+.footer-container{
+    max-width: 116rem;
+    margin: auto;
+    padding: 0 1.5rem;
+    overflow: hidden;
+    resize: horizontal;
+}
+
+.footer-top{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    row-gap: 2rem;
+}
+
+.footer-title{
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-list-item{
+    list-style: none;
+}
+
+.footer-list-link{
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.25s;
+}
+
+.footer-list-link:hover{
+    color: #fff;
+}
+
+.footer-divider{
+    margin-block: 2.5rem;
+    border: none;
+    border-top: 1px solid rgba(252, 255, 255, 0.1);
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    height: 100px;
+    font-size: 18px; 
+}
+
+.footer-bottom .footer-list{
+    flex-direction: row;
+}

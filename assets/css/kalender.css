@@ -1,0 +1,171 @@
+/*Körper der Seite*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/*"Kopf" der Seite*/
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #fff;
+}
+
+/*Navigationsleiste*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+
+/*Main-Abschnitt der Seite*/
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Stile für den Kalender*/
+.events {
+    margin-top: 40px;
+}
+
+.events h2 {
+    font-size: 24px;
+}
+
+.event-calendar {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.prev, .next {
+    cursor: pointer;
+}
+
+.weekdays {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.weekdays li {
+    flex: 1;
+    text-align: center;
+}
+
+.days {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.days li {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.days li:hover {
+    background-color: #ff9900;
+    color: #fff;
+}
+
+.container {
+    background-color: #003366;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+/*Fußzeile*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Die Social-Links, die im Footer stehen*/
+.social-links {
+    margin-left: 30px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
